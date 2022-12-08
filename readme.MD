@@ -32,6 +32,8 @@ bot通过openai模块调用应该不需要科学上网
 
 注意:
 
+    相应器由于使用的是on_command, 请注意用的是否需要带上command_start
+
     需要安装openai模块 pip install openai
 
     目前env只提供了api_key和max_tokens的设置, 其他参数你可以自己动源码
@@ -57,7 +59,6 @@ bot通过openai模块调用应该不需要科学上网
                 DB:       0,  // use default DB
             })
         }
-
         (这ai甚至手撕二叉树, 手撸STL容器, 已经吊打我这个废物了....)
 
 
@@ -75,7 +76,6 @@ bot通过openai模块调用应该不需要科学上网
 
         Yours,
         Li Hua
-
-        (真nm正宗啊, 薄纱我这个在四六级考试写中国皇帝写成Chinese boss的废物)
+        (真nm正宗, 薄纱我这个在四六级考试把中国皇帝写成Chinese boss的废物)
 
 

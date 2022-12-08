@@ -25,10 +25,14 @@ openai_max_tokens貌似是ai返回的文本最大多少(根据我自己用的经
 
 openai_api_key必须配置, openai_max_tokens随意, 有默认值
 
+bot通过openai模块调用应该不需要科学上网
+
 
 
 
 注意:
+
+    需要安装openai模块 pip install openai
 
     目前env只提供了api_key和max_tokens的设置, 其他参数你可以自己动源码
 

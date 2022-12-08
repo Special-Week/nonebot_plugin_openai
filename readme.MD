@@ -19,7 +19,7 @@ env配置项:
 | openai_max_tokens | int     |1000      |openai_max_tokens = 1500         |    openai的max_tokens, 详细请看下文     |
 
 
-openai_api_key请在 https://beta.openai.com/account/api-keys 自己获取
+openai_api_key请注册openai后在 https://beta.openai.com/account/api-keys 自己获取
 
 openai_max_tokens貌似是ai返回的文本最大多少(根据我自己用的经验)
 

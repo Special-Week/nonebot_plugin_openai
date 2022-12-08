@@ -23,6 +23,9 @@ openai_api_key请在 https://beta.openai.com/account/api-keys 自己获取
 
 openai_max_tokens貌似是ai返回的文本最大多少(根据我自己用的经验)
 
+openai_api_key必须配置, openai_max_tokens随意, 有默认值
+
+
 
 
 注意:

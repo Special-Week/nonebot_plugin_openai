@@ -17,6 +17,7 @@ env配置项:
 |-------------------|---------|----------|---------------------------------|----------------------------------------|
 | openai_api_key    | string  |寄        |openai_api_key = "aabb114514"    |    openai的api_key, 详细请看下文         |
 | openai_max_tokens | int     |1000      |openai_max_tokens = 1500         |    openai的max_tokens, 详细请看下文     |
+| openai_cd_time    | int     |60        |openai_cd_time = 114             |    openai调用的cd                       |
 
 
 openai_api_key请注册openai后在 https://beta.openai.com/account/api-keys 自己获取

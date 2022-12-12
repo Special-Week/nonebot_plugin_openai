@@ -36,6 +36,8 @@ bot通过openai模块调用应该不需要科学上网
     相应器由于使用的是on_command, 请注意用的是否需要带上command_start
 
     需要安装openai模块 pip install openai
+    
+    如果你出现了<module 'openai' has no attribute 'Completion'>的报错, 大概是和numpy相关, 解决方法是卸载numpy和openai然后再单独安装openai(numpy会被当作依赖再次下回来, 所以不需要再次下载numpy)
 
     目前env只提供了api_key和max_tokens的设置, 其他参数你可以自己动源码
 
